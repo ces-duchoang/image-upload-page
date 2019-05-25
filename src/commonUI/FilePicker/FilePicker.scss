@@ -1,0 +1,17 @@
+.file-picker-container {
+  .file-dropzone {
+    background-color: transparent;
+    padding: 0.75em 0.5em;
+    border: dashed 1px white;
+    text-align: center;
+    cursor: pointer;
+    p{
+      color:white;
+      font-weight: bold;
+      font-size: 12px;
+    }
+  }
+  .file-dropzone:hover{
+    background-color: lighten(#282c34, 10%);
+  }
+}

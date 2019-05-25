@@ -1,0 +1,17 @@
+@import './variables';
+
+$colors-map: (
+  Green $green,
+  Blue $blue,
+  Yellow $yellow,
+  Brown $brown,
+  Gray $dark-gray,
+  GrayShow $dark-gray-listmanga
+);
+
+:export {
+  green: $green;
+  blue: $blue;
+  yellow: $yellow;
+  brown: $brown;
+}
