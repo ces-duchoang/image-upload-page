@@ -37,6 +37,7 @@
 
 .pure-material-textfield-filled > textarea{
     height: 100%;
+    resize: none;
 }
 
 /* Span */
@@ -85,6 +86,7 @@
 .pure-material-textfield-filled > textarea:not(:focus):placeholder-shown + span {
     font-size: inherit;
     line-height: 48px;
+    color: #777777;
 }
 
 /* Focus */

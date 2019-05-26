@@ -13,11 +13,11 @@ class Button extends Component {
         className={
           "button " +
           (this.props.type ? this.props.type : "btn-ok ") +
-          (this.props.style ? " " + this.props.style : "")
+          (this.props.className ? " " + this.props.className : "")
         }
         disabled={this.props.disabled ? this.props.disabled : false}
       >
-        {this.props.children}
+        {this.props.icon && <i className={this.props.icon} />}
         {this.props.display}
       </button>
     );
