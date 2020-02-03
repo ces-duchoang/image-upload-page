@@ -9,6 +9,7 @@ class App extends React.Component {
     copied: false
   };
   render() {
+    console.log('this is test');
     var ListFile = list.map((e, i) => (
       <div className="file-line" key={i}>
         <span>{e.name}</span>
